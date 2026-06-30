@@ -1,0 +1,114 @@
+:root {
+  --viajes-dark: #000000;
+  --viajes-light: #ffffff;
+  --viajes-info: #0dcaf0;
+  --viajes-muted: #d7d7d7;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--viajes-dark);
+  color: var(--viajes-light);
+  font-family: "Open Sans", sans-serif;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.45);
+  transition: background-color 0.2s ease;
+}
+
+.navbar.scrolled {
+  background-color: rgba(0, 0, 0, 0.92);
+}
+
+.brand-logo {
+  height: 34px;
+  width: auto;
+}
+
+.carousel-item img {
+  height: 100vh;
+  min-height: 520px;
+  object-fit: cover;
+}
+
+.section-title {
+  border-bottom: 1px solid #333333;
+  font-size: 28px;
+  font-weight: 700;
+  padding-bottom: 18px;
+}
+
+.about-section p {
+  color: var(--viajes-muted);
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.feature-icon {
+  background-color: var(--viajes-info);
+  color: var(--viajes-light);
+  font-size: 24px;
+}
+
+.card {
+  background-color: var(--viajes-info);
+  border: 0;
+  color: var(--viajes-light);
+}
+
+.card-img-top {
+  height: 170px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-weight: 700;
+}
+
+.contact-form {
+  max-width: 760px;
+}
+
+.form-control {
+  border-radius: 4px;
+}
+
+.footer {
+  background-color: var(--viajes-info);
+}
+
+.footer-brand {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.social-links a {
+  color: var(--viajes-light);
+  font-size: 30px;
+  margin-left: 16px;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  color: var(--viajes-dark);
+}
+
+@media (max-width: 767px) {
+  .carousel-item img {
+    height: 70vh;
+    min-height: 420px;
+  }
+
+  .section-title {
+    font-size: 24px;
+  }
+
+  .social-links a {
+    margin: 0 8px;
+  }
+}
