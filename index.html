@@ -244,9 +244,48 @@
           <button type="submit" class="btn btn-info text-white" id="enviarMensaje">
             Enviar
           </button>
+          <button
+            type="button"
+            class="btn btn-outline-info ms-2"
+            data-bs-toggle="modal"
+            data-bs-target="#infoModal"
+          >
+            Horarios
+          </button>
         </form>
       </section>
     </main>
+
+    <div
+      class="modal fade"
+      id="infoModal"
+      tabindex="-1"
+      aria-labelledby="infoModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content text-dark">
+          <div class="modal-header">
+            <h2 class="modal-title fs-5" id="infoModalLabel">Atenci&oacute;n a viajeros</h2>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Cerrar"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Nuestro equipo atiende consultas de lunes a viernes entre 09:00 y
+            18:00 horas.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-info text-white" data-bs-dismiss="modal">
+              Entendido
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <footer class="footer py-4">
       <div class="container d-flex flex-column flex-md-row align-items-center justify-content-between gap-3">
