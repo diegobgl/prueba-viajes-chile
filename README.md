@@ -1,8 +1,6 @@
-# Prueba Viajes Chile
 
 Landing page responsiva para la prueba de Fundamentos Desarrollo Front End.
 
-## Requisitos cubiertos
 
 - HTML semantico con navbar, header, main, secciones y footer.
 - CSS externo con Google Fonts y Font Awesome.
@@ -10,8 +8,3 @@ Landing page responsiva para la prueba de Fundamentos Desarrollo Front End.
 - Bootstrap JS: carousel, collapse, tooltip y modal.
 - JavaScript local para tooltips, navbar con scroll y formulario.
 
-## Publicacion
-
-Repositorio sugerido: `viajes-chile`.
-
-GitHub Pages debe configurarse desde la rama `main`, carpeta `/root`.
