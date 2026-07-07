@@ -142,6 +142,31 @@ body {
   color: var(--viajes-dark);
 }
 
+.whatsapp-float {
+  align-items: center;
+  background-color: #25d366;
+  border-radius: 50%;
+  bottom: 24px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+  color: var(--viajes-light);
+  display: flex;
+  font-size: 34px;
+  height: 62px;
+  justify-content: center;
+  position: fixed;
+  right: 24px;
+  text-decoration: none;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+  width: 62px;
+  z-index: 1030;
+}
+
+.whatsapp-float:hover {
+  background-color: #1ebe5d;
+  color: var(--viajes-light);
+  transform: translateY(-3px);
+}
+
 @media (max-width: 767px) {
   .carousel-item img {
     height: 70vh;
@@ -154,6 +179,14 @@ body {
 
   .map-frame {
     height: 360px;
+  }
+
+  .whatsapp-float {
+    bottom: 18px;
+    font-size: 30px;
+    height: 56px;
+    right: 18px;
+    width: 56px;
   }
 
   .social-links a {
