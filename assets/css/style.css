@@ -69,6 +69,50 @@ body {
   font-weight: 700;
 }
 
+.map-section {
+  border-top: 1px solid #333333;
+}
+
+.map-text {
+  color: var(--viajes-muted);
+  line-height: 1.7;
+}
+
+.map-list {
+  color: var(--viajes-light);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.map-list li {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.map-list span {
+  background-color: var(--viajes-info);
+  border-radius: 50%;
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+}
+
+.map-frame {
+  border: 2px solid var(--viajes-info);
+  border-radius: 8px;
+  height: 420px;
+  overflow: hidden;
+}
+
+.map-frame iframe {
+  border: 0;
+  height: 100%;
+  width: 100%;
+}
+
 .contact-form {
   max-width: 760px;
 }
@@ -106,6 +150,10 @@ body {
 
   .section-title {
     font-size: 24px;
+  }
+
+  .map-frame {
+    height: 360px;
   }
 
   .social-links a {
