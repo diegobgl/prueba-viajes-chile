@@ -1,0 +1,25 @@
+Validación local del paquete público. Fecha: 20/10/2026 (Chile).
+Comando: python -B -m unittest discover -v
+
+test_anuncio_es_abstracto_y_tres_formatos_heredan (test_programacion_avanzada.AnuncioTests.test_anuncio_es_abstracto_y_tres_formatos_heredan) ... ok
+test_dimensiones_no_positivas_se_vuelven_uno_y_setters_funcionan (test_programacion_avanzada.AnuncioTests.test_dimensiones_no_positivas_se_vuelven_uno_y_setters_funcionan) ... ok
+test_polimorfismo_y_colaboracion_muestran_mensajes_exactos (test_programacion_avanzada.AnuncioTests.test_polimorfismo_y_colaboracion_muestran_mensajes_exactos) ... ok
+test_url_getters_setters_basicos_y_subtipo_por_formato (test_programacion_avanzada.AnuncioTests.test_url_getters_setters_basicos_y_subtipo_por_formato) ... ok
+test_video_uno_por_uno_inmutable_y_duracion_positiva_o_cinco (test_programacion_avanzada.AnuncioTests.test_video_uno_por_uno_inmutable_y_duracion_positiva_o_cinco) ... ok
+test_addAnuncio_crea_o_copia_y_no_adopta_instancia (test_programacion_avanzada.CampañaTests.test_addAnuncio_crea_o_copia_y_no_adopta_instancia) ... ok
+test_asignacion_de_fecha_no_agrega_regla_de_orden_no_solicitada (test_programacion_avanzada.CampañaTests.test_asignacion_de_fecha_no_agrega_regla_de_orden_no_solicitada) ... ok
+test_constructor_y_setter_crean_componentes_sin_alias_de_datos (test_programacion_avanzada.CampañaTests.test_constructor_y_setter_crean_componentes_sin_alias_de_datos) ... ok
+test_excepciones_canonicas_y_aliases_compatibles (test_programacion_avanzada.CampañaTests.test_excepciones_canonicas_y_aliases_compatibles) ... ok
+test_fechas_tienen_getters_setters_privados_y_str_muestra_ambas (test_programacion_avanzada.CampañaTests.test_fechas_tienen_getters_setters_privados_y_str_muestra_ambas) ... ok
+test_getter_devuelve_copia_y_setter_rechaza_instancias_externas (test_programacion_avanzada.CampañaTests.test_getter_devuelve_copia_y_setter_rechaza_instancias_externas) ... ok
+test_nombre_200_aceptado_201_rechazado_y_asignacion_fallida_conserva_nombre (test_programacion_avanzada.CampañaTests.test_nombre_200_aceptado_201_rechazado_y_asignacion_fallida_conserva_nombre) ... ok
+test_nombre_y_fechas_rechazan_tipos_incorrectos_sin_cambiar_valores (test_programacion_avanzada.CampañaTests.test_nombre_y_fechas_rechazan_tipos_incorrectos_sin_cambiar_valores) ... ok
+test_setter_anuncios_es_atomico_ante_error_en_ultimo_elemento (test_programacion_avanzada.CampañaTests.test_setter_anuncios_es_atomico_ante_error_en_ultimo_elemento) ... ok
+test_demo_append_utf8_registra_errores_200_y_subtipo (test_programacion_avanzada.DemoTests.test_demo_append_utf8_registra_errores_200_y_subtipo) ... ok
+test_demo_un_video_y_dos_inputs_validos_sin_crear_log (test_programacion_avanzada.DemoTests.test_demo_un_video_y_dos_inputs_validos_sin_crear_log) ... ok
+test_importar_demo_no_solicita_input (test_programacion_avanzada.DemoTests.test_importar_demo_no_solicita_input) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.025s
+
+OK

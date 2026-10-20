@@ -1,0 +1,55 @@
+Nombre y subtipo válidos
+Nuevo nombre: Nuevo subtipo de Video (instream/outstream): Nombre de la campaña: Campaña octubre corregida
+Fecha inicio: 2026-10-01
+Fecha término: 2026-10-31
+Anuncios: 1 Video, 0 Display, 0 Social
+Video:
+==========
+- instream
+- outstream
+Display:
+==========
+- traditional
+- native
+Social:
+==========
+- facebook
+- linkedin
+
+Nombre con201 caracteres
+Nuevo nombre: Error registrado: El nombre supera 200 caracteres.
+Nombre de la campaña: Campaña de demostración
+Fecha inicio: 2026-10-01
+Fecha término: 2026-10-31
+Anuncios: 1 Video, 0 Display, 0 Social
+Video:
+==========
+- instream
+- outstream
+Display:
+==========
+- traditional
+- native
+Social:
+==========
+- facebook
+- linkedin
+
+Subtipo de otro formato
+Nuevo nombre: Nuevo subtipo de Video (instream/outstream): Error registrado: Subtipo inválido para Video: facebook. Permitidos: instream, outstream.
+Nombre de la campaña: Campaña con error de subtipo
+Fecha inicio: 2026-10-01
+Fecha término: 2026-10-31
+Anuncios: 1 Video, 0 Display, 0 Social
+Video:
+==========
+- instream
+- outstream
+Display:
+==========
+- traditional
+- native
+Social:
+==========
+- facebook
+- linkedin
